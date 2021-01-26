@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid SVG Test</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/dist/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/style.css" />
+  </head>
+  <body>
     <div onclick="fillData()" class="profile">
-            <img src="/images/image-victor.jpg" alt="Victor">
-            <div id="pname" class="profile__name">Victor Crest <span>26</span></div>
-            <div id="place" class="profile__place">London</div>
-            <div class="profile__social">
-                <div id="pfb" class="fb">
-                    80K
-                    <div class="profile__social__label">
-                        Followers
-                    </div>
-                </div>
-                <div id="ptw" class="tw">
-                    803K
-                    <div class="profile__social__label">
-                        Likes
-                    </div>
-                </div>
-                <div id="pinsta" class="insta">
-                    1.4K
-                    <div class="profile__social__label">
-                        Photos
-                    </div>
-                </div>
-            </div>
+      <img id="pphoto" src="/images/image-victor.jpg" alt="Victor" />
+      <div id="pname" class="profile__name">Victor Crest <span>26</span></div>
+      <div id="place" class="profile__place">London</div>
+      <div class="profile__social">
+        <div id="pfb" class="fb">
+          80K
+          <div class="profile__social__label">Followers</div>
+        </div>
+        <div id="ptw" class="tw">
+          803K
+          <div class="profile__social__label">Likes</div>
+        </div>
+        <div id="pinsta" class="insta">
+          1.4K
+          <div class="profile__social__label">Photos</div>
+        </div>
+      </div>
     </div>
     <script src="/dist/script.js"></script>
-</body>
+  </body>
 </html>
