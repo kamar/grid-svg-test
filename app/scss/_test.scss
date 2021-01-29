@@ -1,0 +1,26 @@
+.outerdiv{
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkblue;
+    padding: 30px;
+    border-radius: 15px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: justify;
+    box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, .5);
+}
+
+.innerdiv{
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    object-fit: cover;
+    shape-outside: circle(50%);
+}
