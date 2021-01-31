@@ -1,17 +1,38 @@
+.mytest{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    width: 100%;
+    min-height: 100vh;
+    // background-color: #010101;
+    // background-image: linear-gradient(45deg, #480d71, #010101);
+    background-image: url("/images/pexels-jayro-cerqueira-da-silva-4338541.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media only screen and (max-width: 60em) {
+        grid-template-columns: 1fr;
+      }
+}
 .outerdiv{
-    position: absolute;
-    width: 550px;
+    // position: absolute;
+    margin: 10px;
+    max-width: 550px;
     height: 450px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: darkblue;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    background-color: #480d71;
     padding: 30px;
     border-radius: 15px;
     color: #fff;
-    line-height: 1.5;
+    line-height: 1.4;
     text-align: justify;
     box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, .5);
+    overflow: auto;
 }
 
 .innerdiv{
